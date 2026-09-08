@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GCSE Chemistry | Elements and Atoms</title>
+<style>
+  :root{
+    --navy:#0f1e3d;--gold:#b8860b;--gold-bg:#fcf1d8;--gold-border:#eeda9e;
+    --ink:#1b2333;--sub:#5a6478;--line:#e4e7ee;--page-bg:#f7f8fb;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;font-family:'Segoe UI','Helvetica Neue',Arial,sans-serif;background:var(--page-bg);color:var(--ink);
+       display:flex;align-items:center;justify-content:center;min-height:100vh;padding:32px;}
+  .card{background:#fff;border:1px solid var(--line);border-radius:16px;max-width:560px;width:100%;
+        box-shadow:0 4px 24px rgba(15,30,61,0.06);overflow:hidden;}
+  .header{background:var(--navy);color:#fff;padding:32px 36px;}
+  .brand{display:flex;align-items:center;gap:14px;margin-bottom:6px;}
+  .brand-icon{width:42px;height:42px;border:2px solid #fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:20px;flex-shrink:0;}
+  .brand-title{font-size:15px;font-weight:700;letter-spacing:0.06em;}
+  .subtitle{font-size:13.5px;color:#c9d2e6;margin:10px 0 0;line-height:1.5;}
+  nav.toc{padding:12px 0;position:relative;}
+  nav.toc a{position:relative;display:flex;align-items:center;gap:14px;padding:14px 36px 14px 56px;color:var(--ink);
+            text-decoration:none;font-size:15px;border-bottom:1px solid #f2f3f7;}
+  nav.toc a:last-child{border-bottom:none;}
+  nav.toc a .dot{width:7px;height:7px;border-radius:50%;background:#8f9bb8;flex-shrink:0;position:absolute;left:36px;}
+  nav.toc a:hover:not(.locked){background:#f7f8fb;}
+  nav.toc a.locked{color:#a7adba;cursor:not-allowed;pointer-events:none;}
+  nav.toc a.locked .dot{display:none;}
+  nav.toc a .lock{margin-left:auto;font-size:14px;color:var(--gold);}
+  nav.toc .spine-line{position:absolute;left:39.5px;top:14px;width:1.5px;height:172px;background:#dfe2ea;}
+  .footer-note{padding:18px 36px 26px;font-size:12.5px;color:var(--sub);border-top:1px solid var(--line);line-height:1.6;}
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="header">
+    <div class="brand">
+      <div class="brand-icon">⚛</div>
+      <div class="brand-title">ELEMENTS AND ATOMS</div>
+    </div>
+    <p class="subtitle">GCSE Combined Science &middot; Chemistry &middot; A one-pager teaching series</p>
+  </div>
+  <nav class="toc">
+    <div class="spine-line"></div>
+    <a href="concept-1-what-is-an-element.html"><span class="dot"></span>1. What is an element?</a>
+    <a href="concept-2-metals-and-nonmetals.html"><span class="dot"></span>2. Metals and non-metals</a>
+    <a href="concept-3-particle-diagrams.html"><span class="dot"></span>3. Particle diagrams</a>
+    <a href="concept-4-atomic-structure.html"><span class="dot"></span>4. Atomic structure</a>
+    <a href="#" class="locked">5. Mass and atomic number <span class="lock">🔒</span></a>
+    <a href="#" class="locked">6. Isotopes <span class="lock">🔒</span></a>
+    <a href="#" class="locked">7. Electron structure <span class="lock">🔒</span></a>
+    <a href="#" class="locked">8. Ions <span class="lock">🔒</span></a>
+    <a href="#" class="locked">9. History of the atom <span class="lock">🔒</span></a>
+  </nav>
+  <div class="footer-note">Lessons 1&ndash;4 are ready now. The rest of the series is still being built and will appear here as each one is finished.</div>
+</div>
+</body>
+</html>
